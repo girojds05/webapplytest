@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}書籍削除確認{% endblock title %}
+
+{% block content %}
+
+  <form method = 'POST'>{% csrf_token %}
+    <button type = 'submit'></button> value = '削除する'>
+  </form>
+
+
+{% endblock content %}
